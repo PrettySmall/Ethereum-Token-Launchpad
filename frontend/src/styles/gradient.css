@@ -1,0 +1,43 @@
+.bg-gradient-blue-to-purple {
+    background-image: linear-gradient(170deg, #4B65F1FF, #FA03FF54);
+}
+
+.text-gradient-blue-to-purple {
+    background-image: linear-gradient(170deg, #4B65F1FF, #FA03FF54);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-step-gradient {
+    background: linear-gradient(138deg, #4B65F1 11.98%, rgba(250, 3, 255, 0.20) 185.22%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient-black-to-white {
+    background-image: linear-gradient(140deg, #FFFFFF00, #FFFFFF48);
+}
+
+.bg-gradient-sign-message {
+    background-image: linear-gradient(to right,
+            #2B4CFF 0%,
+            /* Start with the first color (red) */
+            #2B4CFF 30%,
+            /* Maintain the first color until 30% */
+            #C32BF9 100%
+            /* Transition to the second color (blue) until the end */
+        );
+}
+
+.card-div {
+    /* Gradient as the bottom layer */
+    background: linear-gradient(to bottom, #0B0C0F, #151516),
+
+        /* Image as the top layer */
+        url(/assets/img/cubes.png);
+    background-blend-mode: color;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
